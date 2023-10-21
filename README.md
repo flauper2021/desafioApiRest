@@ -40,7 +40,7 @@ JAVA RESTful API criado para Santander BootCamp FullStack
   }
 
   User --> Account
-  User -- >Feature
+  User --> Feature
   User --> Card
   User --> News
 ```
