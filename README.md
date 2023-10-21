@@ -6,7 +6,9 @@ JAVA RESTful API criado para Santander BootCamp FullStack
 - Railway.
 
 
-classDiagram
+## Diagrama de Classes
+
+```mermaid
   class User {
     -String name
     -Account account
@@ -37,8 +39,9 @@ classDiagram
     -String description
   }
 
-  User "1" *-- "1" Account
-  User "1" *-- "N" Feature
-  User "1" *-- "1" Card
-  User "1" *-- "N" News
+  User --> Account
+  User -- >Feature
+  User --> Card
+  User --> News
+```
 
