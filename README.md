@@ -8,7 +8,7 @@ JAVA RESTful API criado para Santander BootCamp FullStack
 
 ## Diagrama de Classes
 
-```mermaid
+
   class User {
     -String name
     -Account account
@@ -39,9 +39,4 @@ JAVA RESTful API criado para Santander BootCamp FullStack
     -String description
   }
 
-  User '1'*--'1' Account
-  User '1'*--'N' Feature
-  User '1'*--'1' Card
-  User '1'*--'N' News
-```
-
+  
